@@ -19,10 +19,10 @@ export default function Footer() {
         </div>
       </div>
       {/* last footer */}
-      <div className="container mx-auto px-4 py-12 mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+      <div className="container mx-auto px-4 py-12 mt-10 grid grid-cols-1 gap-8 md:grid-cols-3 items-start">
         {/* Left Section */}
-        <div>
-          <div className="flex items-center">
+        <div className="text-center md:text-left">
+          <div className="flex items-center justify-center md:justify-start">
             <img
               className="w-8 h-8 rounded"
               src="https://i.pinimg.com/736x/a6/ff/f9/a6fff963d32fac5eb0385be92089a654.jpg"
@@ -32,7 +32,7 @@ export default function Footer() {
               Topmind Care
             </h1>
           </div>
-          <p className="text-gray-500 flex items-center mt-2">
+          <p className="text-gray-500 flex items-center justify-center md:justify-start mt-2">
             Mindfulness for growing minds,{" "}
             <AiOutlineCopyrightCircle className="mx-1" /> Mindery kids.
           </p>
@@ -50,9 +50,9 @@ export default function Footer() {
         </div>
 
         {/* Right Section */}
-        <div className="text-right">
+        <div className="text-center md:text-right">
           <h1 className="font-semibold text-lg">Legal</h1>
-          <div className="flex gap-4 mt-2 justify-end">
+          <div className="flex gap-4 mt-2 justify-center md:justify-end">
             <button className="text-gray-500 hover:underline">Privacy</button>
             <button className="text-gray-500 hover:underline">Terms</button>
           </div>
