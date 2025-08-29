@@ -1,12 +1,28 @@
-# React + Vite
+# TopMindCare (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TopMindCare is a **React.js** frontend project built with **Tailwind CSS** and **Bootstrap**.  
+It provides a clean UI for users to start a free trial by filling out a simple form.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Modern UI with Tailwind CSS + Bootstrap
+- "Start Free Trial" button that opens a form modal
+- Responsive design for mobile and desktop
+- Simple and lightweight frontend (no backend)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React.js** (Frontend Framework)
+- **Tailwind CSS** (Utility-first CSS)
+- **Bootstrap** (Pre-styled components)
+
+---
+
+## 📦 Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Anshika1378/topmindcare.git
+   cd topmindcare
+
